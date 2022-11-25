@@ -1,3 +1,4 @@
-node_modules/
-wrapper_autogen/**/*.ts
+node_modules*
 scripts/
+yarn.lock*
+package-lock.json*

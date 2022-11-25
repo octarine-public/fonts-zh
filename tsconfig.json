@@ -8,6 +8,7 @@
 		"noEmit": true,
 		"noUnusedLocals": true,
 		"strict": true,
+		"outDir": "scripts",
 		"alwaysStrict": true,
 		"experimentalDecorators": true,
 		"lib": [
@@ -20,7 +21,7 @@
 		"../../../**/*.d.ts"
 	],
 	"exclude": [
-		"wrapper_autogen/**/*",
+		"../../octarine-web/*",
 		"node_modules/**/*",
 		"scripts_files/**/*"
 	],
